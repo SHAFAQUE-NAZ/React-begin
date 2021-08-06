@@ -4,6 +4,7 @@ import Greet from './component/Greet';
 import Welcome from './component/Welcome';
 import Hello from './component/Hello';
 import Message from './component/Message'
+import Counter from './component/Counter';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <Welcome name="Daina" heroName = "Wonder Women"></Welcome>
       <Hello />
       <Message />
+      <Counter />
       
     </div>
   );
