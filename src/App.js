@@ -1,7 +1,8 @@
 // import logo from './logo.svg';
 import './App.css';
-import ClassClick from './component/ClassClick';
-import FunctionClick from './component/FunctionClick';
+// import ClassClick from './component/ClassClick';
+import EventBind from './component/EventBind';
+// import FunctionClick from './component/FunctionClick';
 // import Greet from './component/Greet';
 // import Welcome from './component/Welcome';
 // import Hello from './component/Hello';
@@ -26,9 +27,10 @@ function App() {
       <Hello />
       <Message />
   <Counter />*/}
-  <FunctionClick />
-  <ClassClick />
-    </div>
+  {/*<FunctionClick />
+  <ClassClick />*/}
+  <EventBind />
+</div>
   );
 }
 
