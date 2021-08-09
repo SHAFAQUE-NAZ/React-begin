@@ -1,15 +1,17 @@
 // import logo from './logo.svg';
 import './App.css';
-import Greet from './component/Greet';
-import Welcome from './component/Welcome';
-import Hello from './component/Hello';
-import Message from './component/Message'
-import Counter from './component/Counter';
+import ClassClick from './component/ClassClick';
+import FunctionClick from './component/FunctionClick';
+// import Greet from './component/Greet';
+// import Welcome from './component/Welcome';
+// import Hello from './component/Hello';
+// import Message from './component/Message'
+// import Counter from './component/Counter';
 
 function App() {
   return (
     <div className="App">
-      <Greet name="Bruce" heroName = "Superman">
+     {/*<Greet name="Bruce" heroName = "Superman">
       <p>This is props children
       </p></Greet>
       <Greet name="Clark" heroName = "Batman">
@@ -23,8 +25,9 @@ function App() {
       <Welcome name="Daina" heroName = "Wonder Women"></Welcome>
       <Hello />
       <Message />
-      <Counter />
-      
+  <Counter />*/}
+  <FunctionClick />
+  <ClassClick />
     </div>
   );
 }
