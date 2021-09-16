@@ -1,9 +1,11 @@
 import React from 'react'
+import Person from './Person'
+
 
 function NameList() {
     //  const names = ["Bruce",'Diana','Clark']
     //  const nameList = names.map(name => <h2>{name}</h2>)
-    const person = [
+    const persons = [
         {
             id : 1,
             name : 'Bruce',
@@ -24,7 +26,7 @@ function NameList() {
         }
 
     ]
-    const personList = person.map(person => (<h2>I am {person.name}.I am {person.age} year old.I Know {person.skill}</h2>))
+    const personList = persons.map(person => <Person person = {person} />)
     return <div>{personList}</div>
     
 }
