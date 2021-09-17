@@ -10,7 +10,9 @@ import './App.css';
 // import Counter from './component/Counter';
 // import ParentComponent from './component/ParentComponent';
 // import UserGreeting from './component/UserGreeting';
-import NameList from './component/NameList';
+// import NameList from './component/NameList';
+import Stylesheet from './component/Stylesheet';
+import Inline from './Inline';
 
 function App() {
   return (
@@ -35,7 +37,9 @@ function App() {
   {/*<EventBind />*/}
   {/*<ParentComponent />*/}
   {/*<UserGreeting />*/}
-  <NameList />
+  {/*<NameList />*/}
+  {/*<Stylesheet primary ={true}/>*/}
+  <Inline></Inline>
 </div>
   );
 }
