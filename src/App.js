@@ -12,9 +12,10 @@ import './App.css';
 // import UserGreeting from './component/UserGreeting';
 // import NameList from './component/NameList';
 // import Stylesheet from './component/Stylesheet';
-import Inline from './Inline';
-import './appStyles.css'
-import styles from './appStyles.module.css'
+// import Inline from './Inline';
+// import './appStyles.css'
+// import styles from './appStyles.module.css'
+import Form from './component/Form';
 
 function App() {
   return (
@@ -41,9 +42,10 @@ function App() {
   {/*<UserGreeting />*/}
   {/*<NameList />*/}
   {/*<Stylesheet primary ={true}/>*/}
-  <Inline />
+  {/*<Inline />
   <h1 className = 'error'>Error</h1>
-  <h1 className = {styles.success}>Success</h1>
+  <h1 className = {styles.success}>Success</h1>*/}
+  <Form />
 </div>
   );
 }
