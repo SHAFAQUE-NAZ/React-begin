@@ -19,6 +19,21 @@ class LifecycleB extends Component {
         console.log("LifecycleB derived From Did Mount")
     }
 
+    shouldComponentUpdate(){
+        console.log("LifecyclB derived From ShouldComponent Update")
+        return true
+
+    }
+
+    getSnapshotBeforeUpdate(prevProps ,prevState){
+        console.log("LifecycleB derived From getSnapshotBeforeUpdate")
+        return null
+    }
+
+    componentDidUpdate(){
+        console.log("LifecycleB componentDidUpdate")
+    }
+
    
     
     render() {
