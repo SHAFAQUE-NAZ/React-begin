@@ -1,6 +1,7 @@
 // import logo from './logo.svg';
 import './App.css';
-import FragmentDemo from './component/FragmentDemo';
+// import FragmentDemo from './component/FragmentDemo';
+import Table from './component/Table';
 // import ClassClick from './component/ClassClick';
 // import EventBind from './component/EventBind';
 // import FunctionClick from './component/FunctionClick';
@@ -49,7 +50,8 @@ function App() {
   <h1 className = {styles.success}>Success</h1>*/}
   {/*<Form />*/}
   {/*<LifecycleA />*/}
-  <FragmentDemo />
+  {/*<FragmentDemo />*/}
+  <Table />
 </div>
   );
 }
