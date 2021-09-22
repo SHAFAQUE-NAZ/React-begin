@@ -1,5 +1,6 @@
 // import logo from './logo.svg';
 import './App.css';
+import FragmentDemo from './component/FragmentDemo';
 // import ClassClick from './component/ClassClick';
 // import EventBind from './component/EventBind';
 // import FunctionClick from './component/FunctionClick';
@@ -16,7 +17,7 @@ import './App.css';
 // import './appStyles.css'
 // import styles from './appStyles.module.css'
 // import Form from './component/Form';
-import LifecycleA from './component/LifecycleA';
+// import LifecycleA from './component/LifecycleA';
 
 function App() {
   return (
@@ -47,7 +48,8 @@ function App() {
   <h1 className = 'error'>Error</h1>
   <h1 className = {styles.success}>Success</h1>*/}
   {/*<Form />*/}
-  <LifecycleA />
+  {/*<LifecycleA />*/}
+  <FragmentDemo />
 </div>
   );
 }
