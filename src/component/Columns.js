@@ -12,11 +12,11 @@ function Columns() {
     //     ))
     // }
         
-        <>
+        <React.Fragment>
         
             <td>Name</td>
             <td>Shafaque</td>
-        </>
+        </React.Fragment>
     )
 }
 
