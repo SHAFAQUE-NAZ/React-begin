@@ -1,11 +1,22 @@
 import React from 'react'
 
 function Columns() {
+    // const items = []
     return (
-        <div>
-            <td>Names</td>
+    //     {
+    //         items.map(items => (
+    //         <React.Fragment key = {items.id}>
+    //         <h1>Title</h1>
+    //         <p>{items.title}</p>
+    //         </React.Fragment>
+    //     ))
+    // }
+        
+        <>
+        
+            <td>Name</td>
             <td>Shafaque</td>
-        </div>
+        </>
     )
 }
 
