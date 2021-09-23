@@ -4,7 +4,7 @@ import React from 'react'
 //    return <h1>Hello Shafaque Naz</h1>
 //}
 
- const Greet = (props) => {
+const Greet = (props) => {
      console.log(props);
      return (
          <div>
@@ -12,8 +12,6 @@ import React from 'react'
          {props.children}
          </div>
      )
-
-
- }
+}
 
 export default Greet;
